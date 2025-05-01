@@ -1,5 +1,5 @@
 const btns = document.querySelectorAll(".btn");
-let input = document.querySelector(".input");
+const input = document.querySelector(".input");
 const deleteBtn = document.querySelector(".delete-btn");
 const equalSign = document.querySelector(".equal");
 const oneDelete = document.querySelector(".delete");
@@ -24,6 +24,12 @@ function lastDelete() {
 
 equalSign.addEventListener("click", function () {
   if (input.value) {
+    input.value = eval(input.value);
+  }
+});
+
+input.addEventListener("keydown", function (e) {
+  if(e.key === "Enter"){
     input.value = eval(input.value);
   }
 });
