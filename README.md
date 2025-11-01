@@ -1,39 +1,52 @@
-# Altamash Calculator
+# Calculator
 
-A responsive and user-friendly calculator web app built with HTML, CSS, and JavaScript. This calculator performs basic arithmetic operations and features a clean, modern UI.
-
+A **modern, responsive calculator web app** built using **HTML**, **CSS**, and **JavaScript**.  
+It performs basic arithmetic operations and provides a minimal, elegant, and user-friendly experience.  
+The calculator supports both **keyboard** and **on-screen** interactions for seamless usability.
 
 ## Preview
-You can see the live demo <a href="https://calculator-one-zeta-44.vercel.app/" target='_blank'>Here</a>
 
+You can see the live demo <a href="https://calculator-one-zeta-44.vercel.app/">Here</a>
 
 ## Features
-Basic arithmetic operations: Addition, subtraction, multiplication, division
 
-Responsive design — Works seamlessly on desktop and mobile
+- Perform arithmetic operations — `+`, `-`, `*`, `/`, `%`
+- **Bracket support** for complex expressions
+- **Keyboard input** — Type directly to calculate
+- **AC (All Clear)** — Clears the entire expression
+- **C (Clear Last)** — Deletes only the last character
+- **Responsive design** — Works smoothly on all screen sizes
+- **Animated buttons** — Subtle hover and click effects
+- **Instant evaluation** — Press `Enter` or `=` to calculate
 
-Interactive buttons with visual feedback
+## Tech Stack
 
-Keyboard input support — Type directly on the keyboard to perform calculations
+**HTML5**: Structure and layout
+**CSS3**: Styling, gradients, and responsiveness
+**JavaScript**: Logic, event handling, and interactivity
 
-Clean and minimalistic UI — Simple and easy-to-use interface
+## Folder Strcuture
 
-Clear button (C) — Clears the last entered value
+<img src="/FolderStrcuture.png" />
 
-All Clear button (AC) — Clears the entire input
+## Installation & Setup
 
-Bracket support: Use parentheses to control operation order
+To run this project locally:
 
-Press Enter or equal button to calculate — Pressing the Enter key or equal button evaluates the expression in the input field
+1. **Clone the repository**:
 
-## Built With
+   ```bash
+   git clone https://github.com/Altamash-khn/Calculator.git
+   ```
 
-HTML5 for the structure and layout.
+2. **Navigate into the project directory**:
 
-CSS3 for styling and responsive design.
+   ```bash
+   cd Calculator
+   ```
 
-JavaScript (Vanilla) for the interactivity and functionality.
+3. **Open the project**:
+   - Simply double-click `index.html`, **or**
+   - Use the **Live Server** extension in VS Code for a better development experience.
 
-## ScreenShot
-
-<img src='Screenshot.png'>
+> 💡 _No dependencies or build tools required — it's a pure HTML, CSS, and JS project._

@@ -11,7 +11,6 @@ btns.forEach((button) => {
 });
 
 deleteBtn.addEventListener("click", function () {
-  console.log("deleteBtn called");
   input.value = "";
 });
 
